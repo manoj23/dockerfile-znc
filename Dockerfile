@@ -2,6 +2,7 @@ ARG ALPINE_VERSION
 FROM alpine:${ALPINE_VERSION}
 ARG DOCKERFILE_HASH
 LABEL maintainer="Georges Savoundararadj <savoundg@gmail.com>"
+LABEL org.opencontainers.image.source https://github.com/manoj23/dockerfile-znc/
 LABEL ALPINE_VERSION=${ALPINE_VERSION}
 LABEL DOCKERFILE_HASH=${DOCKERFILE_HASH}
 ARG UID=${UID:-1000}
