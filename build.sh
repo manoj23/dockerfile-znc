@@ -3,7 +3,7 @@
 set -e
 
 UID_ARG=500
-ALPINE_BUILDER_VERSION="3.18.6"
+ALPINE_BUILDER_VERSION="3.19.1"
 USER="manoj23"
 REPO="znc"
 DOCKERFILE_HASH=$(git rev-parse --short HEAD)
